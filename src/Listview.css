@@ -1,0 +1,31 @@
+.container-ls {
+  display: flex;
+  margin-left: 3vw;
+  flex-direction: row;
+  padding-top: 10vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: left;
+  font-size: 1.1rem;
+  font-weight: 340;
+}
+.img-ls {
+  width: 100px;
+  height: 140px;
+  object-fit: content;
+  transition: 0.5s ease;
+}
+img:hover {
+  opacity: 0.6;
+}
+.card-ls {
+  padding: 15px;
+  align-content: center;
+}
+.space-ls {
+  padding: 50px;
+}
+.title {
+  padding-top: 15vh;
+  padding-bottom: 8px;
+}

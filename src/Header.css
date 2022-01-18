@@ -1,0 +1,68 @@
+.Header_container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(11, 39, 65);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(131, 165, 197);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 50%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: rgb(131, 165, 197);
+}
+.header__optionLineOne {
+  font-size: 10px;
+  transition: 0.5s ease;
+}
+.header__optionLineOne:hover {
+  opacity: 0.6;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.header__optionLineTwo:hover {
+  opacity: 0.6;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  margin-right: 60px;
+  color: white;
+}
